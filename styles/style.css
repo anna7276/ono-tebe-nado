@@ -139,13 +139,16 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  margin: 29px 24px;
+  margin: 28px 24px;
   z-index: 1;
 }
 
 .card {
   flex-grow: 1;
   width: 334px;
+  min-height: 563px;
+  /* может быть имеет смысл сделать минмальную высоту меньше, 
+  чем в макете? На случай, если объем текста в карточках уменьшится */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -197,7 +200,7 @@
 }
 
 .about {
-  margin: 181px 24px 181px 71px;
+  margin: 183px 24px 181px 71px;
   display: flex;
 }
 
